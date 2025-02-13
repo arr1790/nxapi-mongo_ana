@@ -3,20 +3,11 @@
 POST http://localhost:3000/api/products HTTP/1.1
 content-type: application/json
 
-{ 
-    "nombre": "Eva", 
-    "edad": 20 
-}
-
 ### 
 
 POST http://localhost:3000/api/products HTTP/1.1
 content-type: application/json
 
-{ 
-    "nombre": "Eugenio", 
-    "edad": 21 
-}
 
 ### 
 
@@ -25,40 +16,33 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/products/6544f16661269657e5324e80 HTTP/1.1
+GET http://localhost:3000/api/products/67ae4cd956aa840c772ba434 HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/products/655a9b3e8b8747bc6a13a543 HTTP/1.1
+PUT http://localhost:3000/api/products/67ae4d7956aa840c772ba435 HTTP/1.1
 content-type: application/json
 
-{ 
-    "nombre": "Pedro", 
-    "edad": 42
-}
+
 
 ###
 
-DELETE http://localhost:3000/api/products/6544f16661269657e5324e80 HTTP/1.1
+DELETE http://localhost:3000/api/products/67acde4ab55f7bf4621bb7d3 HTTP/1.1
 content-type: application/json
 
 ###
 
-DELETE https://nxapi-mongodb.vercel.app/api/products/6542da20c20d9ad95c739701 HTTP/1.1
+DELETE https://nxapi-mongo-ana.vercel.app/api/products/67acde4ab55f7bf4621bb7d3 HTTP/1.1
 content-type: application/json
 
 ### 
 
-POST https://nxapi-mongodb.vercel.app/api/products HTTP/1.1
+POST https://nxapi-mongo-ana.vercel.app/api/products HTTP/1.1
 content-type: application/json
 
-{ 
-    "nombre": "Jose", 
-    "edad": 21 
-}
 
 ### 
 
-DELETE https://nxapi-mongodb.vercel.app/api/products/6542da35c20d9ad95c739702
+DELETE https://nxapi-mongo-ana.vercel.app/api/products/67acde4ab55f7bf4621bb7d3 HTTP/1.1
 content-type: application/json
